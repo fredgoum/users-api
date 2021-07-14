@@ -12,7 +12,7 @@ This project is a Restful API that manages users datas in an application. It is 
 
 ## Installation
 ```
-git clone githublink
+git clone https://github.com/fredgoum/users-api.git
 cd users-api
 composer install
 ```
