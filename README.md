@@ -7,7 +7,37 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# About this project
+This project is a Restful API that manages users datas in an application. It is created with the Laravel framework.
+
+## Installation
+```
+git clone githublink
+cd users-api
+composer install
+```
+
+## Database
+You must first have a database such as MySQL, Postgres, SQLite and SQL Server.  
+You have to indicate where your database is located in the ***.env*** configuration file.
+
+## Data migration
+```
+php artisan migrate:install
+php artisan migrate
+```
+
+## Routes
+```
+php artisan route:list
+```
+
+## Development
+```
+php artisan serve
+```
+ 
+# About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
